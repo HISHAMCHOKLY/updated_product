@@ -1,0 +1,141 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    width:100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+/* nav-bar */
+.navbar-color{
+    background-color: #733EE2;
+    width: 100%;
+
+}
+.logo{
+    width: 100%;
+    height: 50px;
+}
+
+/* contact */
+
+.logo-image{
+    /* height: 18%; */
+    width:80%;
+    margin-top: 50px;
+}
+
+.contact-title{
+    font-size: 60px;
+    color: #0000004D;
+    display: flex;
+    align-content: center;
+    justify-content: right;
+    margin-top: 80px;
+
+}
+
+
+.contact-title-2{
+    font-size: 35px;
+    color: #0000004D;
+    margin-top: 50px;
+
+}
+
+.contact-sub-title{
+    font-size: 40px;
+
+}
+.contact-sub-title-2{
+    font-size: 30px;
+
+}
+
+.des-center{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
+
+}
+
+.contact-icons{
+    width:10%;
+    margin-right: 20px;
+
+}
+.footer{
+    overflow-x: hidden;
+    margin-top: 60px;
+    font-size: 22px;
+    background-color: #733EE2;
+}
+.icon-size{
+    font-size: 22px;
+    font-size: 600;
+}
+
+/* media-query */
+
+@media only screen and (max-width: 565px) {
+    body{
+        overflow-x: hidden;
+    }
+    .logo-image{
+        width: 50%;
+
+    }
+    .mb-center{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .contact-title{
+        font-size: 40px;
+        color: #0000004D;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .contact-title-2{
+        font-size: 14px;
+        color: #0000004D;
+        margin-top: 38px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .contact-sub-title{
+
+        font-size: 12px;
+        text-align: center;
+
+    }
+    .contact-sub-title-2{
+        font-size: 12px;
+    
+    }
+    
+    .contact-icons{
+        width:8%;
+        margin-right: 20px;
+    }
+
+
+    .contact-image{
+        display: none;
+
+    }
+    .footer{
+        overflow-x: hidden;
+        font-size: 14px;
+        margin-top: 60px;
+        background-color: #733EE2;
+    }
+  }
