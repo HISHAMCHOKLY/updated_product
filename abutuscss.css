@@ -1,0 +1,87 @@
+body{
+    overflow-x: hidden;
+}
+.navbar-color{
+    background-color: #733EE2;
+    height: 60px;
+}
+.logo{
+    width: 100%;
+    height: 50px;
+}
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.prt-head{
+    font-size: 65px;
+    font-weight: 500;
+}
+.head{
+    background-image: url('./images/Frame\ 2.png');
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.prt-text{
+    font-size: 80px;
+    font-weight: 500;
+
+}
+.p-head{
+    color: #733EE2;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 90px;
+}
+.p-para{
+    font-size: 23px;
+    font-weight: 400;
+}
+.p-para-2{
+    font-size: 19px;
+    font-weight: 400;
+}
+.c-mt{
+    margin-top: 100px;
+}
+.footer{
+    margin-top: 60px;
+    background-color: #733EE2;
+}
+.icon-size{
+    font-size: 22px;
+    font-size: 600;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .prt-text{
+        font-size: 30px;
+    }
+    .head{
+        height: 40vh;
+    }
+    .prt-head{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .p-head{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 90px;
+    }
+    .p-para{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .p-para-2{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+  }
+
+
