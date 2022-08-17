@@ -1,12 +1,25 @@
 body{
+    width: 100%;
+    height: 100vh;
     overflow-x: hidden;
 }
+.main-navbar{
+    width: 100%;
+    height: 65px;
+}
+
 .navbar-color{
     background-color: #733EE2;
-    height: 60px;
+    height: 70px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.full-width{
+    width: 100%;
 }
 .logo{
-    width: 100%;
+    margin-left: 15px;
     height: 50px;
 }
 .font-poppins{
@@ -17,7 +30,7 @@ body{
     font-weight: 500;
 }
 .head{
-    background-image: url('./images/Frame\ 2.png');
+    background-image: url('./images/Frame\ 3.png');
     width: 100%;
     height: 85vh;
     background-size: cover;
@@ -58,11 +71,25 @@ body{
 
 
 @media only screen and (max-width: 768px) {
+    body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    }
+    .nav-bg{
+    background-color: #733EE2;
+    }
     .prt-text{
         font-size: 30px;
     }
     .head{
+        background-image: url('./images/Frame\ 3.png');
+        width: 100%;
         height: 40vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
     }
     .prt-head{
         font-size: 35px;
